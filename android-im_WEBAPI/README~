@@ -1,0 +1,10 @@
+change index.php 
+	1. ip address, 
+	2. user name rooter, password, we set any host in mySQLadmin, grant all previlege, 
+change java code
+	
+	public class SocketOperator implements ISocketOperator
+	{
+		private static final String AUTHENTICATION_SERVER_ADDRESS = "http://192.168.1.107/ece655/"; //TODO change to your WebAPI Address
+
+
